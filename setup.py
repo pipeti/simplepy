@@ -23,5 +23,5 @@ setup(name='simplepy',
             'supervisor==3.2.3',
             'psycopg2==2.7.3.2',
             'gunicorn==19.7.1'
-      ]
+      ],
       zip_safe=False)
