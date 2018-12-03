@@ -1,8 +1,4 @@
-import psycopg2
 import pytz
-import gunicorn
-import jsonschema
-import Flask
 import kafka-python
 import click
 import Werkzeug
@@ -11,8 +7,12 @@ import functools32
 import jsonschema
 import markupsafe
 import jinja2
+import flask
 import meld3
-import supervisorimport
+import supervisor
+import psycopg2
+import gunicorn
+
 
 def joke():
     return (u'Wenn ist das Nunst\u00fcck git und Slotermeyer? Ja! ... '
