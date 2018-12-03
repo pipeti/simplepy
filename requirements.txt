@@ -16,3 +16,5 @@ ply==3.9
 requests==2.11.1
 six==1.10.0
 supervisor==3.2.3
+psycopg2==2.7.3.2
+gunicorn==19.7.1
