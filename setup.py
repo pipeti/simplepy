@@ -20,6 +20,8 @@ setup(name='simplepy',
             'jinja2==2.8.1',
             'flask==0.12.1',
             'meld3==1.0.2',
-            'supervisor==3.2.3'
+            'supervisor==3.2.3',
+            'psycopg2==2.7.3.2',
+            'gunicorn==19.7.1'
       ],
       zip_safe=False)
